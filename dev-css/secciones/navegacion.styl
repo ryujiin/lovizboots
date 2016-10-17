@@ -1,17 +1,23 @@
 
 .navbar-default
-	border-color: #fff
+	background-color #fff
+	box-shadow 0 2px 5px rgba(0,0,0,.16)
+	
 	.navbar-brand
 		font-family: 'BenchNine', sans-serif;
 		color #000
 		font-size 30px
 		letter-spacing 2px
 		font-weight bold
-
+		text-transform uppercase			
 .navbar-default 
-	.navbar-nav > 
-		.active > a
-			color #000
-			font-family 'BenchNine', sans-serif;
-			letter-spacing 1px
-			text-transform uppercase
+	.navbar-nav > li > a
+		color #000
+		font-family 'BenchNine', sans-serif;
+		letter-spacing 1px
+		text-transform uppercase
+		font-weight bold
+		&.active > a
+			background-color #fff
+		&:hover
+			background-color #e7e7e7	

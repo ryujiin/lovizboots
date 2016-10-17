@@ -5,8 +5,18 @@ body {
   line-height: 1.4;
   color: #333;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'BenchNine', sans-serif;
+}
 .navbar-default {
-  border-color: #fff;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.16);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.16);
 }
 .navbar-default .navbar-brand {
   font-family: 'BenchNine', sans-serif;
@@ -14,12 +24,20 @@ body {
   font-size: 30px;
   letter-spacing: 2px;
   font-weight: bold;
+  text-transform: uppercase;
 }
-.navbar-default .navbar-nav > .active > a {
+.navbar-default .navbar-nav > li > a {
   color: #000;
   font-family: 'BenchNine', sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
+  font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a.active > a {
+  background-color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #e7e7e7;
 }
 #page-header {
   margin: 0 -15px;
