@@ -1,0 +1,11 @@
+{
+  "name": "lovizboots",
+  "version": "0.0.0",
+  "dependencies": {},
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "styl": "stylus --use nib --watch dev-css/style.styl --out css/"
+  }
+}

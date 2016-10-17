@@ -1,11 +1,26 @@
-/**
- * Place your custom styles here.
- */
-
-#page-header{
-	margin: 0 -15px
+body {
+  font-size: 16px;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.4;
+  color: #333;
 }
-
-.navbar-brand{
-	font-family: 'BenchNine', sans-serif;
+.navbar-default {
+  border-color: #fff;
+}
+.navbar-default .navbar-brand {
+  font-family: 'BenchNine', sans-serif;
+  color: #000;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.navbar-default .navbar-nav > .active > a {
+  color: #000;
+  font-family: 'BenchNine', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+#page-header {
+  margin: 0 -15px;
 }
