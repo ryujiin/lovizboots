@@ -1,6 +1,11 @@
 /**
  * Place your custom styles here.
  */
+
 #page-header{
 	margin: 0 -15px
+}
+
+.navbar-brand{
+	font-family: 'BenchNine', sans-serif;
 }
