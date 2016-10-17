@@ -13,6 +13,12 @@ h5,
 h6 {
   font-family: 'BenchNine', sans-serif;
 }
+#cloud-zoom-big {
+  display: block !important;
+}
+.navbar {
+  margin-bottom: 0px;
+}
 .navbar-default {
   background-color: #fff;
   -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.16);
@@ -33,11 +39,18 @@ h6 {
   text-transform: uppercase;
   font-weight: bold;
 }
-.navbar-default .navbar-nav > li > a.active > a {
+.navbar-default.active > a {
   background-color: #fff;
 }
-.navbar-default .navbar-nav > li > a:hover {
-  background-color: #e7e7e7;
+.navbar-default:hover {
+  background-color: #f5f5f5;
+}
+.nav > li > a {
+  font-weight: 'BenchNine', sans-serif;
+  color: #000;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 #page-header {
   margin: 0 -15px;
