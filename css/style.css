@@ -13,13 +13,13 @@ h5,
 h6 {
   font-family: 'BenchNine', sans-serif;
 }
-#productoproducto .panel-col-first {
+#producto .panel-col-first {
   width: 60%;
 }
-#productoproducto .panel-col-last {
+#producto .panel-col-last {
   width: 39%;
 }
-#productoproducto .cloud-zoom-container #wrap {
+#producto .cloud-zoom-container #wrap {
   float: right !important;
 }
 .navbar {
