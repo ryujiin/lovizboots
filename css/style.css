@@ -13,6 +13,16 @@ h5,
 h6 {
   font-family: 'BenchNine', sans-serif;
 }
+#producto .panel-2col-stacked .panel-col-first {
+  width: 60%;
+}
+#producto .panel-2col-stacked .panel-col-last {
+  width: 39%;
+}
+#producto .cloud-zoom-container .cloud-zoom-gallery-thumbs,
+#producto .cloud-zoom-container #wrap {
+  float: right !important;
+}
 .navbar {
   margin-bottom: 0px;
 }
@@ -48,7 +58,4 @@ h6 {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: bold;
-}
-#page-header {
-  margin: 0 -15px;
 }
