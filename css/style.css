@@ -13,14 +13,14 @@ h5,
 h6 {
   font-family: 'BenchNine', sans-serif;
 }
-#producto .panel-2col-stacked .panel-col-first {
+#productoproducto .panel-col-first {
   width: 60%;
 }
-#producto .panel-2col-stacked .panel-col-last {
+#productoproducto .panel-col-last {
   width: 39%;
 }
-#producto .cloud-zoom-container .cloud-zoom-gallery-thumbs,
-#producto .cloud-zoom-container #wrap {
+#productoproducto .cloud-zoom-container .cloud-zoom-gallery-thumbs,
+#productoproducto .cloud-zoom-container #wrap {
   float: right !important;
 }
 .navbar {
