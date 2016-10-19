@@ -54,13 +54,6 @@ a:hover {
 .navbar-default:hover {
   background-color: #f5f5f5;
 }
-.nav > li > a {
-  font-weight: 'BenchNine', sans-serif;
-  color: #000;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
 .footer-contorno {
   background-color: #f4f4f4;
 }
@@ -68,9 +61,15 @@ a:hover {
   border-top: none;
   padding-bottom: 10px;
 }
+.footer-contorno .footer .block-menu h2 {
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: bold;
+}
 .footer-contorno .footer .footer-reserva {
   border-top: 1px solid #ddd;
   padding-top: 5px;
+  font-size: 12px;
 }
 #producto .cloud-zoom-container #wrap {
   float: right !important;
