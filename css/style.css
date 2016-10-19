@@ -37,6 +37,16 @@ a:hover {
 #producto .pane-node-title h1 {
   margin: 0;
 }
+#producto .pane-node-product-commerce-price {
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+}
+#producto .pane-node-product-commerce-price table {
+  border: none;
+}
+#producto .pane-node-product-commerce-price .table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #fff;
+}
 .navbar {
   margin-bottom: 0px;
 }
