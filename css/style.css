@@ -54,6 +54,11 @@ a:hover {
 .navbar-default:hover {
   background-color: #f5f5f5;
 }
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: none;
+  text-decoration: underline;
+}
 .footer-contorno {
   background-color: #f4f4f4;
 }
@@ -70,6 +75,9 @@ a:hover {
   border-top: 1px solid #ddd;
   padding-top: 5px;
   font-size: 12px;
+}
+.footer-contorno .footer .nav > li > a {
+  padding: 0;
 }
 #producto .cloud-zoom-container #wrap {
   float: right !important;
