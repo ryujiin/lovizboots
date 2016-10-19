@@ -16,6 +16,12 @@ h6,
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+a {
+  color: #000;
+}
+a:hover {
+  color: #000;
+}
 #producto .cloud-zoom-container #wrap {
   float: right !important;
 }
@@ -28,7 +34,7 @@ h6,
 #producto .panel-separator {
   display: none;
 }
-#producto .titulo-producto {
+#producto .pane-node-title h1 {
   margin: 0;
 }
 .navbar {
