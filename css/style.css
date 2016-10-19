@@ -13,7 +13,7 @@ h5,
 h6,
 .imprenta {
   font-family: 'BenchNine', sans-serif;
-  text-tranform: uppercase;
+  text-transform: uppercase;
   letter-spacing: 1px;
 }
 #producto .cloud-zoom-container #wrap {
@@ -35,6 +35,9 @@ h6,
   background-color: #fff;
   -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.16);
   box-shadow: 0 2px 5px rgba(0,0,0,0.16);
+}
+.navbar-default:hover {
+  background-color: #fff;
 }
 .navbar-default .navbar-brand {
   font-family: 'BenchNine', sans-serif;
