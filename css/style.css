@@ -10,8 +10,14 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.imprenta {
   font-family: 'BenchNine', sans-serif;
+  text-tranform: uppercase;
+  letter-spacing: 1px;
+}
+#producto .cloud-zoom-container #wrap {
+  float: right !important;
 }
 #producto .panel-col-first {
   width: 60%;
@@ -19,8 +25,8 @@ h6 {
 #producto .panel-col-last {
   width: 39%;
 }
-#producto .cloud-zoom-container #wrap {
-  float: right !important;
+#producto .panel-2col-stacked .panel-separator {
+  display: none;
 }
 .navbar {
   margin-bottom: 0px;
