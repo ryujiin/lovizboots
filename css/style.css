@@ -25,8 +25,11 @@ h6,
 #producto .panel-col-last {
   width: 39%;
 }
-#producto .panel-2col-stacked .panel-separator {
+#producto .panel-separator {
   display: none;
+}
+#producto .titulo-producto {
+  margin: 0;
 }
 .navbar {
   margin-bottom: 0px;
