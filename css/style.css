@@ -108,3 +108,11 @@ a:hover {
 #producto .pane-node-product-commerce-price .table-striped > tbody > tr:nth-of-type(odd) {
   background-color: #fff;
 }
+#producto #form_comentario .model-content .imagen_comentario {
+  float: left;
+  width: 20%;
+}
+#producto #form_comentario .model-content .modal-body {
+  float: right;
+  width: 80%;
+}
