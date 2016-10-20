@@ -1,5 +1,7 @@
 (function($) {
-	Drupal.behaviors.miconsole = function(context){
-		console.log('kike');
+	Drupal.behaviors.miconsole = {
+		attach: function (context) {
+			console.log('kike');
+		}
 	}
 })(jQuery);
