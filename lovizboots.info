@@ -30,5 +30,5 @@ stylesheets[all][] = css/style.css
 ;; JavaScripts
 ;;;;;;;;;;;;;;;;;;;;;
 
-scripts[] = js/my_modal.js
+
 
