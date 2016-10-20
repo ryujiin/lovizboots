@@ -56,7 +56,7 @@ a:hover {
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
-  background-color: none;
+  background-color: transparent;
   text-decoration: underline;
 }
 .footer-contorno {
@@ -75,6 +75,7 @@ a:hover {
   border-top: 1px solid #ddd;
   padding-top: 5px;
   font-size: 12px;
+  margin-top: 15px;
 }
 .footer-contorno .footer .nav > li > a {
   padding: 0;
