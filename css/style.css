@@ -108,11 +108,24 @@ a:hover {
 #producto .pane-node-product-commerce-price .table-striped > tbody > tr:nth-of-type(odd) {
   background-color: #fff;
 }
-#producto #form_comentario .model-content .imagen_comentario {
-  float: left;
-  width: 20%;
+#form_comentario .model-content {
+  overflow: hidden;
 }
-#producto #form_comentario .model-content .modal-body {
-  float: right;
-  width: 80%;
+#form_comentario .model-content .imagen_comentario {
+  height: 100%;
+  position: fixed;
+  padding: 50px 10px;
+  background: #333;
+  width: 120px;
+}
+#form_comentario .model-content .modal-header {
+  margin-left: 120px;
+}
+#form_comentario .model-content .modal-header h4 {
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+}
+#form_comentario .model-content .modal-body {
+  margin-left: 120px;
 }
