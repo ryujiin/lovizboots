@@ -28,15 +28,15 @@ a:hover {
 .navbar {
   margin-bottom: 0px;
 }
-.navbar-default {
+#navbar .navbar-default {
   background-color: #fff;
   -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.16);
   box-shadow: 0 2px 5px rgba(0,0,0,0.16);
 }
-.navbar-default:hover {
+#navbar .navbar-default:hover {
   background-color: #fff;
 }
-.navbar-default .navbar-brand {
+#navbar .navbar-default .navbar-brand {
   font-family: 'BenchNine', sans-serif;
   color: #000;
   font-size: 30px;
@@ -44,17 +44,17 @@ a:hover {
   font-weight: bold;
   text-transform: uppercase;
 }
-.navbar-default .navbar-nav > li > a {
+#navbar .navbar-default .navbar-nav > li > a {
   color: #000;
   font-family: 'BenchNine', sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: bold;
 }
-.navbar-default.active > a {
+#navbar .navbar-default.active > a {
   background-color: #fff;
 }
-.navbar-default:hover {
+#navbar .navbar-default:hover {
   background-color: #f5f5f5;
 }
 .nav > li > a:hover,
