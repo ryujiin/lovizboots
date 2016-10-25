@@ -1,29 +1,28 @@
 .navbar
 	margin-bottom 0px
-#navbar
-	.navbar-default
+.navbar-default
+	background-color #fff
+	box-shadow 0 2px 5px rgba(0,0,0,.16)	
+	&:hover
 		background-color #fff
-		box-shadow 0 2px 5px rgba(0,0,0,.16)	
-		&:hover
-			background-color #fff
-		.navbar-brand
-			font-family: 'BenchNine', sans-serif;
-			color #000
-			font-size 30px
-			letter-spacing 2px
-			font-weight bold
-			text-transform uppercase			
-	.navbar-default 
-		.navbar-nav > li > a
-			color #000
-			font-family 'BenchNine', sans-serif;
-			letter-spacing 1px
-			text-transform uppercase
-			font-weight bold
-		&.active > a
-			background-color #fff
-		&:hover
-			background-color #f5f5f5
+	.navbar-brand
+		font-family: 'BenchNine', sans-serif;
+		color #000
+		font-size 30px
+		letter-spacing 2px
+		font-weight bold
+		text-transform uppercase			
+.navbar-default 
+	.navbar-nav > li > a
+		color #000
+		font-family 'BenchNine', sans-serif;
+		letter-spacing 1px
+		text-transform uppercase
+		font-weight bold
+	&.active > a
+		background-color #fff
+	&:hover
+		background-color #f5f5f5
 .nav > li > a:hover, .nav > li > a:focus
 	background-color transparent
 	text-decoration underline
