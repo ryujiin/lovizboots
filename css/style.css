@@ -62,6 +62,15 @@ a:hover {
   background-color: transparent;
   text-decoration: underline;
 }
+.region-navigation {
+  float: right;
+}
+.region-navigation .caja_busqueda {
+  float: left;
+}
+.region-navigation .carrito {
+  float: right;
+}
 .footer-contorno {
   background-color: #f4f4f4;
 }
