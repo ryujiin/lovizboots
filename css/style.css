@@ -68,6 +68,18 @@ a:hover {
 .region-navigation .caja_busqueda {
   float: left;
 }
+.region-navigation .caja_busqueda .views-exposed-form .views-exposed-widget {
+  padding: 15px 0px 0;
+}
+.region-navigation .caja_busqueda .form-control {
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+.region-navigation .caja_busqueda .views-exposed-form .views-exposed-widget .btn {
+  margin-top: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
 .region-navigation .carrito {
   float: right;
 }
