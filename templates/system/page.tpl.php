@@ -73,6 +73,14 @@
  * @ingroup templates
  */
 ?>
+<section id="nav_Top">
+  <?php if ($page['top_navigation']): ?>
+    <?php print render($page['top_navigation']); ?>
+    <?php if (!empty($secondary_nav)): ?>
+      <?php print render($secondary_nav); ?>
+    <?php endif; ?>
+  <?php endif; ?>
+</section>
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
   <div class="<?php print $container_class; ?>">
     <div class="navbar-header">
@@ -101,9 +109,6 @@
         <nav role="navigation">
           <?php if (!empty($primary_nav)): ?>
             <?php print render($primary_nav); ?>
-          <?php endif; ?>
-          <?php if (!empty($secondary_nav)): ?>
-            <?php print render($secondary_nav); ?>
           <?php endif; ?>
           <?php if (!empty($page['navigation'])): ?>
             <?php print render($page['navigation']); ?>
