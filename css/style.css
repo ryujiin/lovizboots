@@ -85,6 +85,10 @@ a:hover {
 }
 .region-navigation .carrito {
   float: right;
+  margin-top: 15px;
+}
+.region-navigation .carrito .view-display-id-block {
+  float: right;
 }
 .footer-contorno {
   background-color: #f4f4f4;
