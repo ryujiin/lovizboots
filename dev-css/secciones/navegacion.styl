@@ -45,8 +45,12 @@
 	.carrito
 		float right
 		padding 20px
+		cursor pointer
+		position relative
 		&:hover
 			background-color #f5f5f5
+		.icomoon
+			font-size 25px
 		.view-display-id-block
 			float right
 		.view-empty
@@ -54,4 +58,21 @@
 				margin 0
 			.line-item-summary
 				display none
+		.view-footer
+			.line-item-quantity
+				.line-item-quantity-raw
+					background: #468847;
+					width: 20px;
+					display: block;
+					color: #fff;
+					text-align: center;
+					line-height: 20px;
+					border-radius: 20px;
+					font-size: 12px;
+				.line-item-quantity-label
+					display none
+			.line-item-total
+				.line-item-total-label
+					display none
+				
 		
