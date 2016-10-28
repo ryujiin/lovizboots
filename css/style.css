@@ -165,9 +165,6 @@ a:hover {
 #producto .panel-separator {
   display: none;
 }
-#producto .pane-node-title h1 {
-  margin: 0;
-}
 #producto .pane-node-product-commerce-price {
   font-family: 'Georgia', serif;
   font-weight: bold;
@@ -180,6 +177,16 @@ a:hover {
 }
 #producto .pane-node-product-commerce-price .table-striped > tbody > tr:nth-of-type(odd) {
   background-color: #fff;
+}
+#producto .nombre-producto h3 {
+  margin: 0px;
+  font-size: 15px;
+}
+#producto .nombre-producto h1 {
+  margin: 0px 0px 5px;
+}
+#producto .seccion_producto {
+  border-bottom: 1px solid #f4f4f4;
 }
 #mini-panel-comentario_modal_panel .modal-content {
   overflow: hidden;
