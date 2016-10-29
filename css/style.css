@@ -183,11 +183,14 @@ a:hover {
 }
 #producto .pane-colores-relacionados .view-content .views-field {
   display: inline-block;
-  border-bottom: 4px solid #fff;
+  border-top: 4px solid #fff;
   padding: 2px;
 }
+#producto .pane-colores-relacionados .view-content .views-field:hover {
+  border-top: 4px solid #000;
+}
 #producto .pane-colores-relacionados .view-content .views-field-field-imagenes {
-  border-bottom: 4px solid #000;
+  border-top: 4px solid #000;
 }
 #producto .pane-node-field-product .attribute-widgets label {
   font-family: 'BenchNine', sans-serif;
