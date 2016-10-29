@@ -178,6 +178,12 @@ a:hover {
 #producto .pane-node-product-commerce-price .table-striped > tbody > tr:nth-of-type(odd) {
   background-color: #fff;
 }
+#producto .pane-node-field-product .attribute-widgets label {
+  font-family: 'BenchNine', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
 #producto .pane-node-field-product .attribute-widgets .form-type-commerce-fancy-attributes-ajax .form-item {
   width: 70px;
   text-align: center;
@@ -188,13 +194,16 @@ a:hover {
 #producto .pane-node-field-product .attribute-widgets .form-type-commerce-fancy-attributes-ajax .form-item:hover {
   border: 1px solid #000;
 }
-#producto .pane-node-field-product .attribute-widgets .form-type-commerce-fancy-attributes-ajax .form-item .label {
+#producto .pane-node-field-product .attribute-widgets .form-type-commerce-fancy-attributes-ajax .form-item .control-label {
   padding: 10px;
 }
 #producto .pane-node-field-product .attribute-widgets .form-type-commerce-fancy-attributes-ajax .form-item .help-block {
   background: #000;
   margin: 0px;
   padding: 2px;
+}
+#producto .pane-node-field-product .attribute-widgets .form-item-attributes-field-color {
+  display: none;
 }
 #producto .nombre-producto h3 {
   margin: 0px;

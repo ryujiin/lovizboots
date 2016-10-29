@@ -29,6 +29,11 @@
 	//Esta parte se encarga de los estilos de la talla
 	.pane-node-field-product
 		.attribute-widgets
+			label
+				font-family 'BenchNine', sans-serif;
+				text-transform uppercase
+				letter-spacing 1px
+				font-weight normal				
 			.form-type-commerce-fancy-attributes-ajax
 				.form-item
 					width 70px
@@ -38,12 +43,14 @@
 					border 1px solid #ddd
 					&:hover
 						border 1px solid #000
-					.label
+					.control-label
 						padding 10px
 					.help-block
 						background #000
 						margin 0px
 						padding 2px
+			.form-item-attributes-field-color
+				display none
 	.nombre-producto
 		h3
 			margin 0px
